@@ -16,7 +16,7 @@ export default function GameList() {
             <GemeListHeader />
             <StyledGameList>                
                 {gameData.map(game => (
-                    <GameCard game={game} />
+                    <GameCard game={game} key={game.name}/>
                 ))}
             </StyledGameList>
         </>

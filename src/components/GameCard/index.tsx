@@ -14,7 +14,7 @@ type Props = {
 
 export default function GameCard({ game } : Props) {
     return (
-        <StyledGameCard key={game.name}>
+        <StyledGameCard >
             <Image src={game.image} alt={game.name} />
             <StyledTitle tag='h3' fontSize='md' fontWeight={700} >{game.name}</StyledTitle>
             <StyledParagraph fontSize='lg' >{game.category}</StyledParagraph>
