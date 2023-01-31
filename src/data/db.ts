@@ -1,9 +1,10 @@
+import { StaticImageData } from 'next/image';
 import Image1 from '../assets/Game1.jpg'
 import Image2 from '../assets/Game2.jpg'
 import Image3 from '../assets/Game3.jpg'
 
 export type iGame = {
-    image: string;
+    image: StaticImageData;
     name: string;
     category: string
 }
