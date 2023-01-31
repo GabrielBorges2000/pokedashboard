@@ -6,7 +6,6 @@ Em desenvolvimento...
 
 https://www.youtube.com/watch?v=Dr8LwQIt1zs&list=PLKbLtSRNxWkg83QDgVXvsImxuzwvuCKsE
 
-Assisti até o video 5
 
 # projeto figma
 

@@ -18,6 +18,17 @@ export const StyledTitle = styled(Title)`
             case 'lg':
                 return css`
                     font-size: 44px;
+                    @media (max-width: 800px) {
+                        font-size: 36px;
+                    }
+                
+                    @media (max-width: 800px) {
+                        font-size: 32px;
+                    }
+                `
+            case 'slg': 
+                return css`
+                    font-size: 26px;
                 `
             case 'md': 
                 return css`

@@ -27,6 +27,11 @@ export const GlobalStyle = createGlobalStyle`
         list-style: none;
     }
 
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
     button {
         cursor: pointer;
         border: 0;
