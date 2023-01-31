@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
     body {      
         -webkit-font-smoothing: antialiased;
         font-family: 'Poppins', sans-serif;
-        background-color: #000;
+        background-color: #121214;
     }
 
     ul, ol{

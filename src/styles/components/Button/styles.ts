@@ -6,6 +6,23 @@ type Props = {
     buttonStyled: 'solid' | 'outline'
 }
 
+export const StyledIconLink = styled.button`
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: center;
+
+    width: 35px;
+    min-width: 35px;
+    height: 35px;
+    color: ${({theme}) => theme.color.white};
+    opacity: 0.5;
+    transition: 0.4s;
+    &:hover {
+        opacity: 1;
+    }
+
+`;
+
 export const StyledButton = styled.button<Props>`
     display: inline-flex;
     align-items: center;

@@ -1,9 +1,10 @@
 import React from 'react';
 import { gameData } from '../../data/db';
 import GameCard from '../GameCard';
+import GemeListHeader from '../GameListHeader';
 
 import {
-StyledGameList,
+    StyledGameList,
 } from './styles';
 
 export default function GameList() {
@@ -11,10 +12,14 @@ export default function GameList() {
     // newGameData.length = 3;
 
     return (
-        <StyledGameList>
-            {gameData.map(game => (
-                <GameCard game={game} />
-            ))}
-        </StyledGameList>
+        <>
+            <GemeListHeader />
+            <StyledGameList>                
+                {gameData.map(game => (
+                    <GameCard game={game} />
+                ))}
+            </StyledGameList>
+        </>
+
     )
 }

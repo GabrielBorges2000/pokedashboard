@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import React from 'react';
-import { StyledButton } from '../../styles/global/components/Button/styles';
-import { StyledParagraph, StyledTitle } from '../../styles/global/components/Title/styles';
+import { StyledButton } from '../../styles/components/Button/styles';
+import { StyledParagraph, StyledTitle } from '../../styles/components/Title/styles';
 import Charizard from '../../assets/Charizard.png'
 
 import {
     StyledBanner, Content, FlexGrid, ImageGrid, PriceBox
 } from './styles';
-import { StyledTag } from '../../styles/global/components/Tag/styled';
+import { StyledTag } from '../../styles/components/Tag/styled';
 
 export default function MainBanner() {
     return (

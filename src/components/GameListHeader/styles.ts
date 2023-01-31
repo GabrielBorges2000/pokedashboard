@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 //import styled from 'styled-components/native';
 
-export const Container = styled.div`
+export const StyledGameListHeader = styled.header`
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+    margin: 3rem 0 1rem;
+    gap: 1rem;
 
 `;

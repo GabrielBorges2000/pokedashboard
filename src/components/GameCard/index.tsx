@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 
 import { iGame } from '../../data/db'
-import { StyledParagraph, StyledTitle } from '../../styles/global/components/Title/styles';
+import { StyledParagraph, StyledTitle } from '../../styles/components/Title/styles';
 
 import {
 StyledGameCard,
