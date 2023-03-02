@@ -15,6 +15,9 @@ export const GlobalStyle = createGlobalStyle`
         -webkit-font-smoothing: antialiased;
         font-family: 'Poppins', sans-serif;
         background-color: #121214;
+
+        margin: 10px 20px;
+
     }
 
     ul, ol{

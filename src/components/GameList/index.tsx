@@ -1,5 +1,6 @@
 import React from 'react';
 import { gameData } from '../../data/db';
+import { StyledTitle } from '../../styles/components/Title/styles';
 import GameCard from '../GameCard';
 import GemeListHeader from '../GameListHeader';
 

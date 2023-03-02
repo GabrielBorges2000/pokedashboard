@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 //import styled from 'styled-components/native';
 
-export const StyledGameList = styled.ul`
+export const StyledGameList = styled.section`
+    width: 100% ;
     display: flex;
     gap: 1.5rem;
 

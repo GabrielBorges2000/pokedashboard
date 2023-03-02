@@ -54,6 +54,10 @@ export const PriceBox = styled.div`
         margin-top: 2rem;
     }
 
+    @media (max-width: 550px){
+        padding: 1.5rem;
+    }
+
     @media (max-width: 400px){
         flex-direction: column;
 
