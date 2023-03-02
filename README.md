@@ -50,7 +50,7 @@ http://192.168.2.376:3000/
   <tr>
     <td align="center">
       <a href="https://github.com/GabrielBorges2000">
-        <img src="https://avatars.githubusercontent.com/u/112534393?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/112534393?v=4" width="100px;" alt="Foto do Gabriel Borges no GitHub"/><br>
         <sub>
           <b>Gabriel Borges</b>
         </sub>
